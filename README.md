@@ -116,14 +116,6 @@ sequenceDiagram
 - **Timestamps**: Normalized to ISO where possible using attribute `created-timestamp`; falls back to `faceplate-timeago` values.
 
 
-### Limitations & Notes
-- **Upvotes formatting**: Shorthand scores like `1.2k` may be returned as `null` if not numeric; can be enhanced to parse `k/m` suffixes.
-- **Reply depth**: Replies are included recursively without a hard cap; extremely deep trees are rare but possible.
-- **Non‑existent subreddits**: Returns an empty list for the subreddit key; check logs for context.
-- **API path**: Assignment calls for `/scrape`; this project currently exposes `/api/v1/scrape`. Adjust routing or use the documented path.
-- **Concurrency & timeouts**: Single process with polite delays; basic robustness is implemented, but request concurrency limits/timeouts can be added if needed.
-
-
 ### Project Scripts
 Defined in `package.json`:
 
