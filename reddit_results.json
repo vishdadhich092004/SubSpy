@@ -1,0 +1,255 @@
+{
+  "javascript": [
+    {
+      "title": "[AskJS] Does anyone know a web code editor for HTML/CSS/JS that also has a real time preview and allows multiple people to collaborate and edit?",
+      "author": "Spirited-Physics-778",
+      "upvotes": 7,
+      "url": "https://www.reddit.com/r/javascript/comments/1nzdl5d/askjs_does_anyone_know_a_web_code_editor_for/",
+      "posted_at": "2025-10-06T08:35:01.310+00:00",
+      "comments": [
+        {
+          "author": "meisangry2",
+          "comment": "VS Code has live share. I’ve not used it in years, but it worked okay when I last used it. It’s an inbuilt feature.",
+          "replies": []
+        },
+        {
+          "author": "TCOO1",
+          "comment": "You can try one of stackblitz, codesandbox, Google IDX, gitpod\n\n\nI believe all of them have collaboration, but double-check what works the best for you",
+          "replies": []
+        },
+        {
+          "author": "TorbenKoehn",
+          "comment": "VSCode can do that.\n\nhttps://visualstudio.microsoft.com/de/services/live-share/\n\nYou can configure what they can do, including them being able to run commands in the terminal, editing different files at the same time, editing _the same file_ at the same time etc.\n\nMost reactive frameworks have hot-reloading, so if you use any of React, Vue, Svelte, Angular etc. and one of their bigger frameworks, you will have live-reloading by default.\n\nIn other cases there are extensions like these:\n\nhttps://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
+          "replies": []
+        },
+        {
+          "author": "illustratum42",
+          "comment": "I know repl.it has gone full ai. But they used to have an editor with live preview and collaboration... Not sure if they still do...",
+          "replies": []
+        },
+        {
+          "author": "amareshadak",
+          "comment": "Great question! Since you're both beginners, I'd recommend focusing on simplicity first. The suggestions here are solid—CodeSandbox and StackBlitz are probably your best bets for web-based collaboration with live preview. They're designed specifically for this use case and require zero setup.\n\n\n\nIf you prefer a desktop editor, VS Code with Live Share is excellent, though you'll need to set up a local server for the preview (Live Server extension works well for basic HTML/CSS/JS).\n\n\n\nOne thing to consider: real-time collaboration can be tricky when you're learning because you might accidentally overwrite each other's work. I'd suggest establishing a simple workflow—maybe one person drives while the other observes and suggests, then swap roles. This actually helps learning more than both typing simultaneously.\n\n\n\nAlso, these tools handle different complexity levels. CodeSandbox shines for simple projects but can handle frameworks later. StackBlitz boots up faster and feels lighter. Try both and see which interface clicks for you.",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "title": "[AskJS] Real-Life Strategies for Overcoming Imposter Syndrome in the Workplace",
+      "author": "abitiouslove",
+      "upvotes": 0,
+      "url": "https://www.reddit.com/r/javascript/comments/1nz8u3z/askjs_reallife_strategies_for_overcoming_imposter/",
+      "posted_at": "2025-10-06T03:46:47.385+00:00",
+      "comments": [
+        {
+          "author": "Sansenbaker",
+          "comment": "Yes Brother imposter syndrome hits hard, even after years. And these are some things that helps me.\n\n* **Keeping a “win log”,**  just a dumb note with tiny wins. Fixed a bug? Nailed a refactor? Add it. On rough days, I scroll through it. Proof I’m not faking it.\n* **Ask questions with no shame.** “I don’t get this” &gt; pretending I do. Most devs respect honesty.\n* **Pair up.** Watching others struggle too? Huge reminder: nobody knows it all.\n* **Stop comparing.** JS is deep. You’re not behind, you’re learning, same as everyone else.\n\nProgress &gt; perfection. Ship stuff, learn, repeat. You’re good and believe that!!",
+          "replies": [
+            {
+              "author": "LittleLuigiYT",
+              "comment": "ChatGPT?! I didn't know you browsed the r/javascript subreddit too. How's it been?",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vjeux » Birth of Prettier",
+      "author": "dumbmatter",
+      "upvotes": 24,
+      "url": "https://www.reddit.com/r/javascript/comments/1nyqeot/vjeux_birth_of_prettier/",
+      "posted_at": "2025-10-05T14:57:42.653+00:00",
+      "comments": []
+    },
+    {
+      "title": "Javascript Chessbot Browser App / Stockfish Engine UI",
+      "author": "Emergency_Self_9907",
+      "upvotes": 3,
+      "url": "https://www.reddit.com/r/javascript/comments/1ny9qcx/javascript_chessbot_browser_app_stockfish_engine/",
+      "posted_at": "2025-10-05T00:09:24.142+00:00",
+      "comments": [
+        {
+          "author": "abrahamguo",
+          "comment": "Very nice!\n\nHave you looked into updating it to use TS?",
+          "replies": [
+            {
+              "author": "Emergency_Self_9907",
+              "comment": "No, why if I may ask ?",
+              "replies": [
+                {
+                  "author": "bitanath",
+                  "comment": "TS is easier to maintain. Also provides all the good stuff associated with statically typed languages.",
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "author": "bitanath",
+          "comment": "Aside from the points above im curious as to why not just use the wasm port to run stockfish in the browser? Your wrapper seems isomorphic so maybe it could be an option?",
+          "replies": []
+        },
+        {
+          "author": "amareshadak",
+          "comment": "This is a fantastic template for anyone wanting to learn chess AI implementation! Integrating Stockfish as the engine is a smart choice for beginners to focus on UI logic.",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "title": "[AskJS] Feedback wanted live online classes for beginner web design including HTML, CSS and JavaScript",
+      "author": "ConstantTechnical151",
+      "upvotes": 0,
+      "url": "https://www.reddit.com/r/javascript/comments/1ny481r/askjs_feedback_wanted_live_online_classes_for/",
+      "posted_at": "2025-10-04T20:13:33.579+00:00",
+      "comments": [
+        {
+          "author": "Sansenbaker",
+          "comment": "This is a solid idea and love that you're going live!\n\n* **Weekly sessions** \\&gt; long cohort. Easier to stick with, less burnout.\n* **Must-covers:** HTML/CSS basics, mobile-first responsive design, accessibility (alt tags, forms), and **how to deploy** (Netlify/Vercel). Add a lil’ JS for interactivity like buttons that actually *do* something. Super motivating for newbies.\n* **Price it friendly:** $10–15 per session or under $150 total. Students and juniors are usually broke keep it accessible.\n* **Project-based = win.** One small thing per class (e.g., “build a card”), plus a final mini-project they can show off.\n* **Let ‘em break stuff.** Live Q&amp;A and screensharing? Gold. That’s where real learning happens.\n\nKeep it chill, hands-on, and fun and you’ll be golden.",
+          "replies": [
+            {
+              "author": "ConstantTechnical151",
+              "comment": "[townmentor.com](http://townmentor.com) has syllabus u/Sansenbaker , let me know what you think about pricing for this syllabus, I think $150 for 12-14 weeks is fine",
+              "replies": [
+                {
+                  "author": "Sansenbaker",
+                  "comment": "Well I haven't seen the syllabus but yaa pricing depends on what level of depth will you provide in this course and your expertise in it. It completely depends on you that what price you feel is right!! I just said what i felt can be right, I maybe called the price which is low or maybe high.",
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Recovering Webmentions from the Fediverse After Migrating to Cloudflare",
+      "author": "adogecc",
+      "upvotes": 4,
+      "url": "https://www.reddit.com/r/javascript/comments/1ny3ipx/recovering_webmentions_from_the_fediverse_after/",
+      "posted_at": "2025-10-04T19:45:00.770+00:00",
+      "comments": [
+        {
+          "author": "amareshadak",
+          "comment": "Bridgy is a lifesaver for maintaining social features after CDN migrations. Great walkthrough showing how federation and webmentions can work together seamlessly!",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "title": "Oxbow UI is now free & MIT! Tailwind CSS & Alpine JS blocks and components.",
+      "author": "Michael_andreuzza",
+      "upvotes": 14,
+      "url": "https://www.reddit.com/r/javascript/comments/1nxpbk9/oxbow_ui_is_now_free_mit_tailwind_css_alpine_js/",
+      "posted_at": "2025-10-04T09:18:23.285+00:00",
+      "comments": [
+        {
+          "author": "tspwd",
+          "comment": "Any benefits for people who bought it?",
+          "replies": [
+            {
+              "author": "Michael_andreuzza",
+              "comment": "Of course, I already mentioned it on the discord channel.  \n**Here is the message:**\n\n\\*\\*Hello u/everyone,\\*\\*\n\nWe’ve decided to make \\*\\*Oxbow UI an open source library\\*\\*, I have been dreaming of this for long time.\n\nIt’s already available for everyone, though the repo + docs still need cleanup (removing obfuscation, restructuring, etc.).\n\n\\*\\*For those who already paid:\\*\\*\n\n\\- You’ll get \\*\\*all the templates we release later, free of charge\\*\\*  \n\\- Nothing changes for you right now, you can keep using the blocks as usual  \n\\- The only immediate changes:\n\n\\- A new docs layout  for small blocks \\[( Right now only Buttons )\\](https://oxbowui.com/documentation/base-components/buttons)\n\n\\- Dark mode across the site\n\n\\- Smaller components (buttons, inputs, etc.) starting to show up in the docs  instead of on the playground.\n\n\\*\\*Why the change?\\*\\*\n\nSales weren’t really happening the way we hoped, and we realized we don’t actually want to spend our time trying to \\*sell\\* it.\n\nInstead of letting Oxbow fade away, we’d rather pivot into something more useful and free for everyone, and build on top of that.\n\n\\*\\*What’s next:\\*\\*\n\n\\- Clean + publish the open source repo + docs\n\n\\- Add proper reusable components (buttons, inputs, smaller UI parts) instead of just blocks\n\n\\- Release templates (free for early supporters), this will take a bit longer since we need to get the foundation right first\n\nJust wanted to be upfront and keep you all in the loop early.\n\nThanks again for supporting Oxbow UI you have no idea how much I appreciate you.",
+              "replies": [
+                {
+                  "author": "tspwd",
+                  "comment": "That’s good to know, thanks!\nSounds like a good strategy!",
+                  "replies": [
+                    {
+                      "author": "Michael_andreuzza",
+                      "comment": "Yeah I think so too we all win instead of just closing the project. \nThe best part is going to be the design system that we are working on.\n\n:-)",
+                      "replies": [
+                        {
+                          "author": "tspwd",
+                          "comment": "Sounds fantastic! Looking forward to it!",
+                          "replies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Showoff Saturday (October 04, 2025)",
+      "author": "AutoModerator",
+      "upvotes": 0,
+      "url": "https://www.reddit.com/r/javascript/comments/1nxn51a/showoff_saturday_october_04_2025/",
+      "posted_at": "2025-10-04T07:00:33.814+00:00",
+      "comments": [
+        {
+          "author": "volkanongun",
+          "comment": "[https://www.youtube.com/watch?v=EDgKWW6QrG8](https://www.youtube.com/watch?v=EDgKWW6QrG8)\n\n  \nWebOS is an Operating System which is developed for any type of computer. It's very light weight (\\~150MB) and optimized for working inside a browser tab, and completely developed with javascript and terminal script.   \n  \nIt uses cloud as login system, only with your WebOS key, you can activate and use.   \n  \nIn WebOS there are 2 main features. Productivity, Security and Internet browsing.",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "title": "[AskJS] How do people develop against multiple projects?",
+      "author": "theScottyJam",
+      "upvotes": 0,
+      "url": "https://www.reddit.com/r/javascript/comments/1nxf740/askjs_how_do_people_develop_against_multiple/",
+      "posted_at": "2025-10-03T23:57:03.640+00:00",
+      "comments": [
+        {
+          "author": "Neat_You_9278",
+          "comment": "I use bash scripts for this purpose. Mostly everything is configurable via environment variables itself but if the setup goes beyond merely using different environment variables these scripts can handle those things. I make them as a inline command chain before running either dev or prod environment, so the relevant scripts know to perform respective actions.\n\nI have also tried building a tool for scaffolding some of this, but i quickly realized that unless it is templatized, it does’t really add much value as setup varies wildly from project to project, and unless it is enforced as key part of development process. i.e constantly being documented and updated as things need to change with features being built especially in a team environment, it can actually leave blind spots.\n\nThen there is a config aspect to setups like containerized apps, where compose file if done well can actually orchestrate all of this. Few things it doesn’t do well, leave little incentive to build a tool and instead get moved to a bash script.\n\nI would be interested to see a tool that is agnostic to some of these nuances. A well designed setup can actually be helpful to remove the guesswork involved at the cost of some opinionated decisions by the tool. Maybe if there is a tool, more folks actually use it and come up with improvements and features.\n\nAll the best",
+          "replies": [
+            {
+              "author": "theScottyJam",
+              "comment": "Thanks for the insights",
+              "replies": []
+            }
+          ]
+        },
+        {
+          "author": "lambda_lord_legacy",
+          "comment": "I'm not sure a generic tool exists, but you either create a tool that automates running everything locally or you create have a proxy that allows for running things partially. Doing this in a generic way is hard because every environment has its own unique quirks.",
+          "replies": []
+        },
+        {
+          "author": "illmatix",
+          "comment": "there was a tool i used recently, localstack, that could replicate aws services locally. I honestly didn't try it for much than s3 bucket testing but it allowed me to build against a production environment locally. \n\nBut in reality at another place we just had staging/production services that made sense. Such like a s3 bucket for staging with mirrored directory structure of prod",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "title": "[AskJS] HELP : I WANT TO TEST MY PROJECTS",
+      "author": "Latter-Debt-4682",
+      "upvotes": 0,
+      "url": "https://www.reddit.com/r/javascript/comments/1nx8u12/askjs_help_i_want_to_test_my_projects/",
+      "posted_at": "2025-10-03T19:33:37.380+00:00",
+      "comments": [
+        {
+          "author": "elprophet",
+          "comment": "You'll need to provide a lot more information about your development environment for anyone to have a shot at giving an answer. You could include a self signed cert in your test environment? You could use http: urls in your test environment? You could... all kinds of things, but without sharing details we're stuck psychic debugging.",
+          "replies": [
+            {
+              "author": "Latter-Debt-4682",
+              "comment": "The http who has this error , https cant even connect say unverified SSL",
+              "replies": [
+                {
+                  "author": "elprophet",
+                  "comment": "Again, need details, but psychic debugging:\n\nWhen you access certain browser features, like the camera, the browser performs security checks as a way to protect against malicious websites. \\`localhost\\` is your own computer, so it doesn't trigger there. Since it's your computer, you're already trusted, it can't be insecure. But when you connect across  your wifi or local network, the browser doesn't know that, so it enables those security guarantees. The \"correct\" way to do this is to create a self signed development certificate and use that on your development computer's web server, and trust it from your mobile device. You'll need to do your own googling there, because those instructions will vary between programming language, server framework, and operating systems.\n\nYou could also install a proxy on the computer you're testing from, so that it looks like \"localhost\" to the testing computer but talks to your web server development machine.",
+                  "replies": []
+                }
+              ]
+            },
+            {
+              "author": "Latter-Debt-4682",
+              "comment": "Tnx for note",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
